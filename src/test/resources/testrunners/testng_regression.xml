@@ -1,0 +1,32 @@
+<suite name="OpenCart Test Suite" thread-count="4"
+	parallel="tests" verbose="4">
+	<test name="Login Page Test">
+		<classes>
+			<class name="com.qa.opencart.test.LoginPageTest" />
+			<class name="com.qa.opencart.test.AccountsPageTest" />
+		</classes>
+
+	</test>
+	<test name="Accounts Page Test">
+		<classes>
+
+			<class name="com.qa.opencart.test.AccountsPageTest" />
+		</classes>
+	</test>
+
+	<test name="ProductInfoPageTest">
+
+		<classes>
+
+			<class name="com.qa.opencart.test.ProductInfoPageTest" />
+		</classes>
+	</test>
+
+	<test name="RegisterPageTest">
+
+		<classes>
+
+			<class name="com.qa.opencart.test.RegisterPageTest" />
+		</classes>
+	</test>
+</suite>
