@@ -1,0 +1,15 @@
+package com.qa.opencart.pages;
+
+import org.openqa.selenium.By;
+
+public class TestPage {
+	static int i=15;
+	public static void main(String[] args) {
+			
+		By userId= By.cssSelector("test");
+	
+		System.out.println("the number is "+  i);
+		
+	}
+
+}
